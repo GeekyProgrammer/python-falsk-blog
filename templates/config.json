@@ -1,0 +1,9 @@
+{
+	"params":
+	{
+		"local_server":"True",
+		"local_uri":"mysql+pymysql://root:@localhost/techietech",
+		"prod_uri":"mysql+pymysql://root:@localhost/techietech"
+	}
+
+}

@@ -1,0 +1,23 @@
+{
+	"params":
+	{
+		"local_server":"True",
+		"local_uri":"mysql+pymysql://root:@localhost/techietech",
+		"prod_uri":"mysql+pymysql://root:@localhost/techietech",
+		"fb_url":"https://facebook.com/TechieTech",
+		"gh_url":"https://github.com/GeekyProgrammer",
+		"tw_url":"",
+		"blog_name":"TechieTech",
+		"tagline":"A Blog For All The Techie's By A Techie",
+		"gmail_username":"meetthakkar05@gmail.com",
+		"gmail_password":"28550456",
+		"about_txt":"Hi My name is Meet Thakkar Welcome to my Blog its Nice to meet you!!",
+		"no_of_posts":2,
+		"login_img":"logo.png",
+		"admin_user":"meetthakkar05",
+		"admin_password":"meet",
+		"upload_location":"C:\\Users\\Meet\\Desktop"
+	}
+
+
+}
