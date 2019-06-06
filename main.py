@@ -7,6 +7,9 @@ import json
 import math
 import os
 
+def Reverse(lst): 
+    return [ele for ele in reversed(lst)]
+
 with open('config.json', 'r') as c:
 	params = json.load(c)['params']
 
@@ -58,7 +61,7 @@ class posts(db.Model):
 
 @app.route("/")
 def index():
-	post = posts.query.filter_by().all()
+	post = Reverse(posts.query.filter_by().all())
 	#[0:params['no_of_posts']]
 	last = math.ceil(len(post) /int(params['no_of_posts']))
 
