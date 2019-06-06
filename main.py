@@ -113,7 +113,7 @@ def contact():
 			"A Message From "+ name,
 			sender = email,
 			recipients=[params['gmail_username']],
-			body=message + '\n \n' + "Contact : " + phone
+			body=message + '\n \n' + "Contact : " + phone + '\n \n' + "Email : " + email
 			)
 
 	return render_template("contact.html", param=params)
